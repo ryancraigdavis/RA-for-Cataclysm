@@ -5,6 +5,7 @@ description = "Raid Analytics Application updated for Cataclysm Classic"
 authors = ["Ryan Davis <ryancraigdavis@github.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "ra_for_cataclysm", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -15,6 +16,9 @@ aiohttp = "^3.9.5"
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"
 python-dotenv = "^1.0.1"
+pytest-asyncio = "^0.23.8"
+pytest-mock = "^3.14.0"
+aioresponses = "^0.7.6"
 
 [build-system]
 requires = ["poetry-core"]
