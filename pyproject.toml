@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "rbp-for-cataclysm"
+name = "rpb-for-cataclysm"
 version = "0.1.0"
-description = "RBP Application updated for cataclysm Classic"
+description = "RPB Application updated for cataclysm Classic"
 authors = ["Ryan Davis <ryancraigdavis@github.com>"]
 license = "MIT"
 readme = "README.md"
