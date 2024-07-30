@@ -1,10 +1,10 @@
-# Cataclysm Classic Warcraft Logs Analyzer
+# Raid Analytics for Cataclysm Classic
 
 This project is a tool for World of Warcraft: Cataclysm Classic raid leaders to analyze and visualize combat log data using Quart and GraphQL.
 
 ## Overview
 
-This application fetches Cataclysm Classic Warcraft logs using GraphQL queries, processes the data, and generates Excel spreadsheets for easy analysis by raid leaders. It's inspired by and based on the tool developed for Wrath of the Lich King.
+This application fetches Cataclysm Classic Warcraft logs using GraphQL queries, processes the data, and generates Excel spreadsheets for easy analysis by raid leaders. It's inspired by and based on the tool RPB and CLA developed for World of Warcraft.
 
 ## Features
 
