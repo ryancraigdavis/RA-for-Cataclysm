@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "rpb-for-cataclysm"
+name = "ra-for-cataclysm"
 version = "0.1.0"
-description = "RPB Application updated for cataclysm Classic"
+description = "Raid Analytics Application updated for Cataclysm Classic"
 authors = ["Ryan Davis <ryancraigdavis@github.com>"]
 license = "MIT"
 readme = "README.md"
