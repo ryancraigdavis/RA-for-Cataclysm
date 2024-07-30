@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rbp-for-cataclysm"
+version = "0.1.0"
+description = "RBP Application updated for cataclysm Classic"
+authors = ["Ryan Davis <ryancraigdavis@github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+quart = "^0.19.6"
+aiohttp = "^3.9.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
