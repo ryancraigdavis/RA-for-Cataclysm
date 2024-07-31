@@ -1,7 +1,7 @@
 from quart import Blueprint, jsonify, current_app
 import aiohttp
-from ..utils.auth import get_access_token
-from ..queries.fight_queries import FETCH_SINGLE_FIGHT_WITH_EVENTS
+from ra_for_cataclysm.utils.auth import get_access_token
+from ra_for_cataclysm.queries.fight_queries import FETCH_SINGLE_FIGHT_WITH_EVENTS
 
 bp = Blueprint('fight', __name__)
 
